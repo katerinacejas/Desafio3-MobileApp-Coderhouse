@@ -35,7 +35,7 @@ export default styles = StyleSheet.create({
         marginRight: 10,
     },
     username: {
-        fontWeight: 'bold',
+        fontFamily: 'meriendaRegular',
         fontSize: 16,
         color: colors.turquesa,
     },
@@ -61,8 +61,8 @@ export default styles = StyleSheet.create({
     },
     buttonText: {
         color: colors.negro,
-        fontWeight: 'bold',
         fontSize: sizes.botones,
         textAlign: 'center',
+        fontFamily: 'meriendaRegular',
     },
 })

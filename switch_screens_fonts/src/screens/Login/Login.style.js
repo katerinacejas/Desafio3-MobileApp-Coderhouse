@@ -18,6 +18,7 @@ export default styles = StyleSheet.create({
         marginBottom: 10,
         fontSize: sizes.inputs,
         backgroundColor: colors.blanco,
+        fontFamily: 'meriendaRegular',
     },
     button: {
         backgroundColor: colors.turquesa,
@@ -31,9 +32,9 @@ export default styles = StyleSheet.create({
     },
     buttonText: {
         color: colors.negro,
-        fontWeight: 'bold',
         fontSize: sizes.botones,
         textAlign: 'center',
+        fontFamily: 'meriendaRegular',
     },
     logo: {
         width: '60%', 
