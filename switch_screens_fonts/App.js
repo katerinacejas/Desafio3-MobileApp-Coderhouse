@@ -12,7 +12,7 @@ export default function App() {
 	// }
 
 	return loginHecho ? (
-		<Home />
+		<Home setLoginHecho={setLoginHecho}/>
 	) : (
 		<Login setLoginHecho={setLoginHecho} />
 	)
